@@ -1,0 +1,29 @@
+{
+  "name": "spigonet/phpmdc",
+  "description": "This class is a PHP Helper class for creating material components based on Google's Material Design framework available at https://material.io/develop/web",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "blade",
+    "components",
+    "package",
+    "google",
+    "material design"
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpMdc\\": "src/PhpMdc/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Gustavo Gomes",
+      "email": "gustavo@spigo.net"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "laravel/framework": "^8.75"
+  }
+}
